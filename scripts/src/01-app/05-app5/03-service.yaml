@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: g-monitoring-app5-service
-  namespace: g-monitoring-app5-ns
+  namespace: dev-gan-app5-ns
   labels:
     name: g-monitoring-app5-service
     app: g-monitoring-app5-app

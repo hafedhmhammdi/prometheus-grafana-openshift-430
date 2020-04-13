@@ -1,21 +1,21 @@
 apiVersion: monitoring.coreos.com/v1
 kind: ServiceMonitor
 metadata:
-  name: g-monitoring-service-monitor
-  namespace: g-monitoring-ns
+  name: prometheus-service-monitor
+  namespace: dev-gan-ns
   labels:
-    name: g-monitoring-service-monitor
+    name: prometheus-service-monitor
     app: prometheus-app
     project: g-monitoring-project
 spec:
   namespaceSelector:
     matchNames:
-      - g-monitoring-app1-ns
-      - g-monitoring-app2-ns
-      - g-monitoring-app3-ns
-      - g-monitoring-app4-ns
-      - g-monitoring-app5-ns
-      - g-monitoring-app6-ns
+      - dev-gan-app1-ns
+      - dev-gan-app2-ns
+      - dev-gan-app3-ns
+      - dev-gan-app4-ns
+      - dev-gan-app5-ns
+      - dev-gan-app6-ns
   selector:
     matchLabels:
       project: g-monitoring-project

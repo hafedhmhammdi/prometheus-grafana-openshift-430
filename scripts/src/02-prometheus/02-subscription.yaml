@@ -3,7 +3,7 @@ kind: Subscription
 metadata:
   generation: 1
   name: prometheus-operator
-  namespace: g-monitoring-ns
+  namespace: dev-gan-ns
 spec:
   channel: beta
   installPlanApproval: Automatic

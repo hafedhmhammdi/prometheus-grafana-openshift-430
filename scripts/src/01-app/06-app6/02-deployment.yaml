@@ -2,7 +2,7 @@ apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
   name: g-monitoring-app6-deployment
-  namespace: g-monitoring-app6-ns
+  namespace: dev-gan-app6-ns
   labels:
     name: g-monitoring-app6-deployment
     app: g-monitoring-app6-app

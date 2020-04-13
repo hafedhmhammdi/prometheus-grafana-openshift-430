@@ -2,7 +2,7 @@ apiVersion: monitoring.coreos.com/v1
 kind: Prometheus
 metadata:
   name: prometheus-instance
-  namespace: g-monitoring-ns
+  namespace: dev-gan-ns
   labels:
     name: prometheus-instance
     app: prometheus-app

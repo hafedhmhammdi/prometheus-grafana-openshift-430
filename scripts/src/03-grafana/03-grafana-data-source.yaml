@@ -2,7 +2,7 @@ apiVersion: integreatly.org/v1alpha1
 kind: GrafanaDataSource
 metadata:
   name: grafana-datasource
-  namespace: g-monitoring-ns
+  namespace: dev-gan-ns
   labels:
     name: grafana-datasource
     app: grafana-app

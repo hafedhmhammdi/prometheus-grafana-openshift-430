@@ -2,7 +2,7 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: g-monitoring-app1-route
-  namespace: g-monitoring-app1-ns
+  namespace: dev-gan-app1-ns
   labels:
     name: g-monitoring-app1-route
     app: g-monitoring-app1-app
