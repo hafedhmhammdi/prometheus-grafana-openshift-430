@@ -84,7 +84,7 @@ https://grafana.com/grafana/dashboards/10856
 
 1. Click on `Create > Import` menu
 
-<img src="images/07-Grafana-Import-1.png" width="656" title="Issue" bordercolor=green>
+<img src="images/07-Grafana-Import-1.png" width="256" title="Issue" bordercolor=green>
 
 2. Enter the pre-created dashboard id `10280` in the text box.
 
