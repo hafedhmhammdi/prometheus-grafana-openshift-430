@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: g-monitoring-app6-service
+  namespace: g-monitoring-app6-ns
+  labels:
+    name: g-monitoring-app6-service
+    app: g-monitoring-app6-app
+    project: g-monitoring-project
+spec:
+  ports:
+    - name: my-http-service
+      port: 8181
+      targetPort: 8181
+  selector:
+    name: g-monitoring-app6-deployment

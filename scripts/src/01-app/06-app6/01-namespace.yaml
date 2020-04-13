@@ -1,0 +1,9 @@
+  
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: g-monitoring-app6-ns
+  labels:
+    name: g-monitoring-app6-ns
+    app: g-monitoring-app6-app
+    project: g-monitoring-project

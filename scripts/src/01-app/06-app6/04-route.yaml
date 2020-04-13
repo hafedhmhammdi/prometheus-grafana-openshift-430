@@ -1,0 +1,17 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: g-monitoring-app6-route
+  namespace: g-monitoring-app6-ns
+  labels:
+    name: g-monitoring-app6-route
+    app: g-monitoring-app6-app
+    project: g-monitoring-project
+spec:
+  path: /microprofile-nature
+  to:
+    kind: Service
+    name: g-monitoring-app6-service
+    weight: 100
+  port:
+    targetPort: my-http-service

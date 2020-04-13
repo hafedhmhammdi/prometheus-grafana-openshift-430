@@ -1,0 +1,33 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: g-monitoring-app6-deployment
+  namespace: g-monitoring-app6-ns
+  labels:
+    name: g-monitoring-app6-deployment
+    app: g-monitoring-app6-app
+    project: g-monitoring-project
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      name: g-monitoring-app6-deployment
+      app: g-monitoring-app6-app
+      project: g-monitoring-project
+  template:
+    metadata:
+      labels:
+        name: g-monitoring-app6-deployment
+        app: g-monitoring-app6-app
+        project: g-monitoring-project
+    spec:
+      containers:
+        - name: main-container
+          image: gandigit/microprofile-nature:latest
+          imagePullPolicy: Always
+          ports:
+            - name: my-http-deploy
+              containerPort: 8181
+              protocol: TCP
+            - name: my-https-deploy
+              containerPort: 8082
