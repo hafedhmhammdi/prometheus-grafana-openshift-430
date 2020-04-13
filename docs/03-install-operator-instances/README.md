@@ -2,17 +2,11 @@
 
 Install the Prometheus and Grafana Operator instances as given below
 
-1. Run the below command to create namespance
+1. Download this repo from GIT
 
-```
-oc new-project dev-gan-ns
-```
+2. Goto the folder `prometheus-grafana-openshift-430/scripts/install` in command line.
 
-2. Download this repo from GIT
-
-3. Goto the folder `prometheus-grafana-openshift-430/scripts/install` in command line.
-
-4. Run the below command.
+3. Run the below command.
 
 ```
 sh 01-install.sh
@@ -29,20 +23,20 @@ This will install and create the below things
     7. Grafana Sample Dashboard
 ```
 
-5. Run the below command to see the pods and services created.
+4. Run the below command to see the pods and services created.
 
 ```
 oc get pods -n dev-gan-ns
 oc get service -n dev-gan-ns
 ```
 
-6. Run the below command to expose the prometheus services
+5. Run the below command to expose the prometheus services
 
 ```
 oc expose svc/prometheus-operated -n dev-gan-ns
 ```
 
-7. Run the below command to see the routes are created.
+6. Run the below command to see the routes are created.
 
 ```
 oc get route -n dev-gan-ns
