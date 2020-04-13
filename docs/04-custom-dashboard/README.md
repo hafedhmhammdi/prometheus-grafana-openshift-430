@@ -48,7 +48,7 @@ The installed `Sample Dashboard` should be displayed there.
 
 It will show you the dashboard configuration page.
 
-<img src="images/05-Custom-Grafana-3-datasource.png" width="656" title="Issue" bordercolor=green>
+<img src="images/05-Custom-Grafana-3-datasource.png" width="256" title="Issue" bordercolor=green>
 
 2. It will show you the dashboard configuration page. Click the datasource.
 
@@ -58,7 +58,7 @@ It will show you the dashboard configuration page.
 
 You can modify datasource parameters for prometheus.
 
-You can click on "Save & Test", to check whether this grafana is able to connect to Prometheus (a datasource).
+You can click on `Save & Test`, to check whether this grafana is able to connect to Prometheus (a datasource).
 
 <img src="images/05-Custom-Grafana-5-datasource-test.png" width="656" title="Issue" bordercolor=green>
 
@@ -99,7 +99,7 @@ https://grafana.com/grafana/dashboards/10280
 
 <img src="images/07-Grafana-Import-3.png" width="656" title="Issue" bordercolor=green>
 
-4. The imported dashboard would like this.
+4. The imported dashboard would be like this.
 
 <img src="images/07-Grafana-Import-4-graph.png" width="656" title="Issue" bordercolor=green>
 

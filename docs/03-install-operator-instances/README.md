@@ -19,6 +19,7 @@ sh 01-install.sh
 ```
 
 This will install and create the below things
+```
     1. Sample applications
     2. Prometheus Instance
     3. Serice Monitor
@@ -26,6 +27,7 @@ This will install and create the below things
     5. Grafana Operator instances
     6. Grafana Datasource
     7. Grafana Sample Dashboard
+```
 
 5. Run the below command to see the pods and services created.
 
