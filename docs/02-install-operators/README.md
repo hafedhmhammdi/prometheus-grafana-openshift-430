@@ -1,10 +1,12 @@
 # Install Prometheus and Grafana Operators
 
-Install the Prometheus and Grafana Operators as given below
+As the default dashboards can't be modified, to make custom dashboards, it is required to install Prometheus and Grafana Operators in another namespace. 
+
+The steps are as given below
 
 ## Install Prometheus Operators
 
-1. Run the below command to create namespance
+1. Run the below command to create a namespance
 
 ```
 oc new-project dev-gan-ns

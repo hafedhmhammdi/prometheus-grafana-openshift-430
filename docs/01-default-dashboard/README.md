@@ -1,10 +1,12 @@
-# Default dashboard
+# Accessing Default Grafana Dashboard
 
-By default Openshift provides the Prometheus and Grafana operators pre-installed and default dashboards available.
+By default Prometheus and Grafana operators are pre-installed and populated with default dashboards.
 
-## Accessing dashboard
+Note: The default dashboards are readonly and can't be modified.
 
-You can access default monitoring dashboards available in the Openshift.
+## Accessing Grafana Dashboard
+
+The default monitoring dashboards available in the Openshift can be accessed as below.
 
 #### 1. Open Grafana Dashboard
 
@@ -12,13 +14,13 @@ Choose the `Monitoring > Dashboards` menu.
 
 <img src="images/01-System-Grafana-1.png" width="256" title="Issue" bordercolor=green>
 
-#### 2. Open the home page
+#### 2. Open Home Dashboard page
 
 Choose the `Manage` menu.
 
 <img src="images/01-System-Grafana-2-manage.png" width="656" title="Issue" bordercolor=green>
 
-#### 3. Open the dashboard
+#### 3. Choose the Dashboard
 
 Choose any one of the available dashboards.
 
@@ -26,7 +28,7 @@ Choose any one of the available dashboards.
 
 #### 4. Graphs
 
-You can see the different graphs available.
+See the different graphs available.
 
 <img src="images/01-System-Grafana-4-Graph1.png" width="656" title="Issue" bordercolor=green>
 

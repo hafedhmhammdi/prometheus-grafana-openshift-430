@@ -1,8 +1,10 @@
-# Accessing Custom Dashboard
+# Creating and Accessing Custom Dashboard
 
-We can access the custom dashboard as given below.
+Using the created Prometheus and Graphana operator instances, new dashboards can be created and accessed.
 
 ## 1. Accessing Prometheus Dashboard
+
+Premetheus will comes with a very simple dashboard.
 
 1. Goto the Route screen in the web console .
 
@@ -20,15 +22,23 @@ It will take you to Prometheus web console.
 
 <img src="images/06-Custom-Prometheus-2.png" width="656" title="Issue" bordercolor=green>
 
+5. Prometheus Targets.
+
+The targets in which prometheus is scraping the data can be seen here. 
+
+<img src="images/08-Prometheus-Targets-1.png" width="656" title="Issue" bordercolor=green>
+<img src="images/08-Prometheus-Targets-2.png" width="656" title="Issue" bordercolor=green>
+
+
 ## 2. Accessing Grafana Dashboard
 
-1. Goto the Route screen in the web console .
+1. Goto the `Routes` screen in the web console .
 
 <img src="images/04-operator-routes.png" width="656" title="Issue" bordercolor=green>
 
 2. Click on the Grafana route link. 
 
-It will take you to Grafana web console.
+It takes to Grafana web console.
 
 ### Sample Dashboard
 
@@ -36,13 +46,13 @@ It will take you to Grafana web console.
 
 <img src="images/05-Custom-Grafana-1-home.png" width="656" title="Issue" bordercolor=green>
 
-2. It will show you the dashboard home page.
+2. It will show the dashboard home page.
 
 The installed `Sample Dashboard` should be displayed there.
 
 <img src="images/05-Custom-Grafana-2-home.png" width="656" title="Issue" bordercolor=green>
 
-3. Click on the `Sample Dashboard` to see the sample dashboard that we created.
+3. Click on the `Sample Dashboard` to see the sample dashboard that was created as part of the installation.
 
 <img src="images/05-Custom-Grafana-3-home.png" width="656" title="Issue" bordercolor=green>
 
@@ -50,11 +60,11 @@ The installed `Sample Dashboard` should be displayed there.
 
 1. Choose the `Configuration > Datasource` menu to open the Datasource home page.
 
-It will show you the dashboard configuration page.
+It will show the dashboard configuration page.
 
 <img src="images/05-Custom-Grafana-3-datasource.png" width="256" title="Issue" bordercolor=green>
 
-2. It will show you the dashboard configuration page. Click the datasource.
+2. It will show the dashboard configuration page. Click the datasource.
 
 <img src="images/05-Custom-Grafana-4-datasource.png" width="656" title="Issue" bordercolor=green>
 
@@ -68,7 +78,7 @@ You can click on `Save & Test`, to check whether this grafana is able to connect
 
 ## Importing pre-created Grafana Dashboard
 
-The pre-created Grafana dashboard can be imported to the grafana to create ready made dashboard.
+The pre-created Grafana dashboard can be imported to the grafana to install ready made dashboard.
 
 Some of the pre-created dashboards are available in the below links.
 
