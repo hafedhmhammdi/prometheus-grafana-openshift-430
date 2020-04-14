@@ -52,3 +52,8 @@ oc new-project dev-gan-ns
 6. Operator installed successfully.
 
 <img src="images/03-install-grafana-operator-4.png" width="656" title="Issue" bordercolor=green>
+
+
+# Back to home page
+
+[Back](../) 

@@ -16,11 +16,12 @@ This will install and create the below things
 ```
     1. Sample applications
     2. Prometheus Instance
-    3. Serice Monitor
+    3. Service Monitor
     4. Route for Prometheus
     5. Grafana Operator instances
     6. Grafana Datasource
     7. Grafana Sample Dashboard
+    8. Route for Grafana
 ```
 
 4. Run the below command to see the pods and services created.
@@ -54,3 +55,8 @@ prometheus-route      prometheus-route-dev-gan-ns.gsi-learning-ocp43-clus-7ec5d7
 The web console screen would like this.
 
 <img src="images/04-operator-routes.png" width="656" title="Issue" bordercolor=green>
+
+
+# Back to home page
+
+[Back](../) 

@@ -1,8 +1,8 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: dev-gan-ns
-  labels:
-    name: dev-gan-ns
-    app: g-monitoring-prometheus-app
-    project: g-monitoring-project
+# apiVersion: v1
+# kind: Namespace
+# metadata:
+#   name: dev-gan-ns
+#   labels:
+#     name: dev-gan-ns
+#     app: g-monitoring-prometheus-app
+#     project: g-monitoring-project

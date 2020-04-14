@@ -1,6 +1,6 @@
-# System dashboard
+# Default dashboard
 
-By default Openshift provides the Prometheus and Grafana operatators installed and default dashboards available.
+By default Openshift provides the Prometheus and Grafana operators pre-installed and default dashboards available.
 
 ## Accessing dashboard
 
@@ -33,3 +33,8 @@ You can see the different graphs available.
 <img src="images/01-System-Grafana-5-Graph2.png" width="656" title="Issue" bordercolor=green>
 
 <img src="images/01-System-Grafana-6-Graph3.png" width="656" title="Issue" bordercolor=green>
+
+
+# Back to home page
+
+[Back](../) 

@@ -42,6 +42,10 @@ The installed `Sample Dashboard` should be displayed there.
 
 <img src="images/05-Custom-Grafana-2-home.png" width="656" title="Issue" bordercolor=green>
 
+3. Click on the `Sample Dashboard` to see the sample dashboard that we created.
+
+<img src="images/05-Custom-Grafana-3-home.png" width="656" title="Issue" bordercolor=green>
+
 ### Datasource
 
 1. Choose the `Configuration > Datasource` menu to open the Datasource home page.
@@ -104,3 +108,9 @@ https://grafana.com/grafana/dashboards/10280
 <img src="images/07-Grafana-Import-4-graph.png" width="656" title="Issue" bordercolor=green>
 
 <img src="images/07-Grafana-Import-5-graph.png" width="656" title="Issue" bordercolor=green>
+
+
+
+# Back to home page
+
+[Back](../) 
