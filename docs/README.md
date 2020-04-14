@@ -1,6 +1,6 @@
-# Monitoring in Redhat Openshift 4.3 using Prometheus and Grafana
+# Monitoring with Prometheus and Grafana in RedHat Openshift 4.3
 
-Redhat Openshift 4.3 cluster monitoring can be done using the Prometheus and Grafana.
+Redhat Openshift 4.3 cluster monitoring can be done using Prometheus and Grafana.
 
 The Objective of this documenation is to explain about the following.
 
@@ -8,7 +8,7 @@ The Objective of this documenation is to explain about the following.
 1. How to use the default Grafana dashboard available in Openshift.
 2. How to install Prometheus and Grafana Operators
 3. How to install Prometheus and Grafana Operators instances, service monitors and sample dashboards.
-4. How to import and view the Custom dashboards. 
+4. How to import and view Custom dashboards. 
 ```
 
 
