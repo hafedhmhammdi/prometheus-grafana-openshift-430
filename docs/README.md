@@ -62,7 +62,7 @@ As the default dashboards can't be modified, to make custom dashboards, it is re
 The steps are as given below
 
 ## Install Prometheus Operators
-
+<details><summary>CLICK ME</summary>
 1. Run the below command to create a namespace
 
 ```
@@ -88,10 +88,10 @@ oc new-project dev-gan-ns
 7. Operator installed successfully.
 
 <img src="images/02-install-prometheus-operator-4.png" width="656" title="Issue" bordercolor=green>
-
+</details>
 
 ## Install Grafana Operators
-
+<details><summary>CLICK ME</summary>
 1. Click on the menu `Operators > Operator Hub` menu.
 
 2. Enter `Gra` in the text box.
@@ -112,7 +112,7 @@ oc new-project dev-gan-ns
 
 <img src="images/03-install-grafana-operator-4.png" width="656" title="Issue" bordercolor=green>
 </details>
-
+</details>
 
 # 3. Install the Prometheus and Grafana Operator instances
 
@@ -161,7 +161,7 @@ The scripts will install and create the below things
 Using the created Prometheus and Grafana operator instances, new dashboards can be created and accessed.
 
 ## 1. Accessing Prometheus Dashboard
-
+<details><summary>CLICK ME</summary>
 Prometheus will comes with a very simple dashboard.
 
 1. Goto the Route screen in the web console .
@@ -187,9 +187,11 @@ The targets in which prometheus is scraping the data can be seen here.
 <img src="images/08-Prometheus-Targets-1.png" width="656" title="Issue" bordercolor=green>
 <img src="images/08-Prometheus-Targets-2.png" width="656" title="Issue" bordercolor=green>
 
+</details>
 
 ## 2. Accessing Grafana Dashboard
 
+<details><summary>CLICK ME</summary>
 1. Goto the `Routes` screen in the web console .
 
 <img src="images/04-operator-routes.png" width="656" title="Issue" bordercolor=green>
@@ -233,9 +235,11 @@ You can modify datasource parameters for prometheus.
 You can click on `Save & Test`, to check whether this grafana is able to connect to Prometheus (a datasource).
 
 <img src="images/05-Custom-Grafana-5-datasource-test.png" width="656" title="Issue" bordercolor=green>
+</details>
 
 ## 3. Importing pre-created Grafana Dashboard
 
+<details><summary>CLICK ME</summary>
 The pre-created Grafana dashboard can be imported to the grafana to install ready made dashboard.
 
 Some of the pre-created dashboards are available in the below links.
@@ -276,6 +280,6 @@ https://grafana.com/grafana/dashboards/10280
 <img src="images/07-Grafana-Import-4-graph.png" width="656" title="Issue" bordercolor=green>
 
 <img src="images/07-Grafana-Import-5-graph.png" width="656" title="Issue" bordercolor=green>
-
+</details>
 </details>
 
