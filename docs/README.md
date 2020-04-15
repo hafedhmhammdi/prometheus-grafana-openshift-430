@@ -55,8 +55,6 @@ See the different graphs available.
 
 # 2. Install Prometheus and Grafana Operators
 
-<details><summary>CLICK ME</summary>
-
 As the default dashboards can't be modified, to make custom dashboards, it is required to install Prometheus and Grafana Operators in another namespace. 
 
 The steps are as given below
@@ -112,7 +110,7 @@ oc new-project dev-gan-ns
 
 <img src="images/03-install-grafana-operator-4.png" width="656" title="Issue" bordercolor=green>
 </details>
-</details>
+
 
 # 3. Install the Prometheus and Grafana Operator instances
 
@@ -155,8 +153,6 @@ The scripts will install and create the below things
 
 
 # 4. Creating and Accessing Custom Dashboard
-
-<details><summary>CLICK ME</summary>
 
 Using the created Prometheus and Grafana operator instances, new dashboards can be created and accessed.
 
@@ -280,6 +276,5 @@ https://grafana.com/grafana/dashboards/10280
 <img src="images/07-Grafana-Import-4-graph.png" width="656" title="Issue" bordercolor=green>
 
 <img src="images/07-Grafana-Import-5-graph.png" width="656" title="Issue" bordercolor=green>
-</details>
 </details>
 
