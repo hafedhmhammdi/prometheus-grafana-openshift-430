@@ -14,13 +14,13 @@ This document explains about the following.
 
 # 1. Accessing Default Grafana Dashboard
 
-<details><summary>CLICK ME</summary>
-
 By default Prometheus and Grafana operators are pre-installed in Openshift and populated with default dashboards. They are installed in openshift-monitoring namespace.
 
 They are readonly and can’t be modified.
 
 The  dashboards can be accessed as below.
+
+<details><summary>CLICK ME</summary>
 
 #### 1. Open Grafana Dashboard
 
@@ -59,7 +59,8 @@ As the default dashboards can't be modified, to make custom dashboards, it is re
 
 The steps are as given below
 
-## Install Prometheus Operators
+## 2.1 Install Prometheus Operators
+
 <details><summary>CLICK ME</summary>
 1. Run the below command to create a namespace
 
@@ -88,7 +89,7 @@ oc new-project dev-gan-ns
 <img src="images/02-install-prometheus-operator-4.png" width="656" title="Issue" bordercolor=green>
 </details>
 
-## Install Grafana Operators
+## 2.2 Install Grafana Operators
 <details><summary>CLICK ME</summary>
 1. Click on the menu `Operators > Operator Hub` menu.
 
@@ -156,7 +157,7 @@ The scripts will install and create the below things
 
 Using the created Prometheus and Grafana operator instances, new dashboards can be created and accessed.
 
-## 1. Accessing Prometheus Dashboard
+## 4.1. Accessing Prometheus Dashboard
 <details><summary>CLICK ME</summary>
 Prometheus will comes with a very simple dashboard.
 
@@ -185,7 +186,7 @@ The targets in which prometheus is scraping the data can be seen here.
 
 </details>
 
-## 2. Accessing Grafana Dashboard
+## 4.2. Accessing Grafana Dashboard
 
 <details><summary>CLICK ME</summary>
 1. Goto the `Routes` screen in the web console .
@@ -233,7 +234,7 @@ You can click on `Save & Test`, to check whether this grafana is able to connect
 <img src="images/05-Custom-Grafana-5-datasource-test.png" width="656" title="Issue" bordercolor=green>
 </details>
 
-## 3. Importing pre-created Grafana Dashboard
+## 4.3. Importing pre-created Grafana Dashboard
 
 <details><summary>CLICK ME</summary>
 The pre-created Grafana dashboard can be imported to the grafana to install ready made dashboard.
