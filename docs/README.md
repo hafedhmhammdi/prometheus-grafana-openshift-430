@@ -22,7 +22,3 @@ Here are the links...
 
 [4. Create and Access Custom Dashboard](04-custom-dashboard) 
 
-
-# Back to home page
-
-[Back](../) 
