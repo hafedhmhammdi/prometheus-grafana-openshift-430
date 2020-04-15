@@ -16,13 +16,11 @@ This document explains about the following.
 
 <details><summary>CLICK ME</summary>
 
-By default Prometheus and Grafana operators are pre-installed and populated with default dashboards.
+By default Prometheus and Grafana operators are pre-installed in Openshift and populated with default dashboards. They are installed in openshift-monitoring namespace.
 
-Note: The default dashboards are readonly and can't be modified.
+They are readonly and can’t be modified.
 
-## Accessing Grafana Dashboard
-
-The default monitoring dashboards available in the Openshift can be accessed as below.
+The  dashboards can be accessed as below.
 
 #### 1. Open Grafana Dashboard
 
@@ -236,7 +234,7 @@ You can click on `Save & Test`, to check whether this grafana is able to connect
 
 <img src="images/05-Custom-Grafana-5-datasource-test.png" width="656" title="Issue" bordercolor=green>
 
-## Importing pre-created Grafana Dashboard
+## 3. Importing pre-created Grafana Dashboard
 
 The pre-created Grafana dashboard can be imported to the grafana to install ready made dashboard.
 
