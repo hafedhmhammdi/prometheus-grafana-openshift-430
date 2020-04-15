@@ -33,6 +33,6 @@ The scripts will install and create the below things
 
 
 
-# Back to home page
 
-[Back](../) 
+
+[Previous](../02-install-operators)  [Next](../04-custom-dashboard) 

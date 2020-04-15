@@ -37,6 +37,7 @@ See the different graphs available.
 <img src="images/01-System-Grafana-6-Graph3.png" width="656" title="Issue" bordercolor=green>
 
 
-# Back to home page
 
-[Back](../) 
+
+
+[Previous](../)  [Next](../02-install-operators) 

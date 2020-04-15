@@ -1,10 +1,10 @@
 # Creating and Accessing Custom Dashboard
 
-Using the created Prometheus and Graphana operator instances, new dashboards can be created and accessed.
+Using the created Prometheus and Grafana operator instances, new dashboards can be created and accessed.
 
 ## 1. Accessing Prometheus Dashboard
 
-Premetheus will comes with a very simple dashboard.
+Prometheus will comes with a very simple dashboard.
 
 1. Goto the Route screen in the web console .
 
@@ -121,6 +121,8 @@ https://grafana.com/grafana/dashboards/10280
 
 
 
-# Back to home page
 
-[Back](../) 
+
+
+
+[Previous](../03-install-operator-instances)  [Next](../) 
