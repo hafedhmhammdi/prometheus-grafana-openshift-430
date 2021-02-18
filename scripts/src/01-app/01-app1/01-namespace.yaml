@@ -3,6 +3,6 @@ kind: Namespace
 metadata:
   name: dev-gan-app1-ns
   labels:
-    name: dev-gan-app1-ns
+    name: monitoring
     app: g-monitoring-app1-app
     project: g-monitoring-project
