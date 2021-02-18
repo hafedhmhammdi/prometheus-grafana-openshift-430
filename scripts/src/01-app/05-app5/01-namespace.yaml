@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: dev-gan-app5-ns
+  name: monitoring
   labels:
     name: dev-gan-app5-ns
     app: g-monitoring-app5-app
