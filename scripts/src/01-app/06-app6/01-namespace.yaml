@@ -4,6 +4,6 @@ kind: Namespace
 metadata:
   name: dev-gan-app6-ns
   labels:
-    name: dev-gan-app6-ns
+    name: monitoring
     app: g-monitoring-app6-app
     project: g-monitoring-project
